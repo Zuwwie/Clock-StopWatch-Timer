@@ -68,7 +68,7 @@ document.querySelector(`.loop`).addEventListener(`click`, function() {
     document.querySelector(`.result`).innerHTML +=
         document.querySelector(`.watch`).innerHTML + `<br>`;
 });
-let z = +document.querySelector(`.number`).innerHTML - 1;
+let z = +document.querySelector(`.number`).innerHTML;
 console.log(`lol`);
 let s1 = 60;
 let m1;
