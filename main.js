@@ -70,11 +70,11 @@ document.querySelector(`.loop`).addEventListener(`click`, function() {
 });
 let z = +document.querySelector(`.number`).innerHTML;
 console.log(z);
-let s1 = 0;
-let m1 = z;
+let s1 = 60;
+let m1;
 let timer2 = function() {
     z = +document.querySelector(`.number`).innerHTML;
-    m1 = z;
+    m1 = z - 1;
     l2 = setInterval(function() {
         if (s1 == 0) {
             m1--;
